@@ -1,0 +1,135 @@
+.home{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 70px;
+    box-sizing:border-box;
+    background-color: rgba(63, 62, 62, 0.39);
+}
+
+.menus a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+    transition: 300ms;
+    text-align: left;
+    margin: 10px 0;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: rgba(63, 62, 62, 0);
+    color: white;
+}
+
+.menus i {
+    transition: 300ms;
+    margin-right: 6px;
+    background-color: rgba(63, 62, 62, 0.39);
+}
+
+.menus a:hover{
+    transition: 300ms;
+    background-color: white;
+    color: black;
+    transform: scale(1.03);
+}
+
+.menus a:active{
+    transition: 300ms;
+    background-color: white;
+    color: black;
+    transform: scale(1.03);
+}
+
+.menus a:hover i{
+    transition: 300ms;
+    color:black;
+    background-color: white;
+}
+
+.credit{
+    margin-top: 40px;
+    font-weight: 300;
+    text-align: left;
+    color: rgb(173, 173, 173);
+    background-color: transparent;
+}
+
+.designer{
+    color: rgb(238, 163, 163);
+    font-weight: 700;
+}
+
+.image{
+    margin-top: 45px;
+}
+
+.image img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.details{
+    text-align: center;
+}
+
+.details h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 8px;
+}
+
+.details p{
+    width: 650px;
+    margin: auto;
+    color: rgb(185, 185, 185);
+    letter-spacing: 2px;
+}
+
+.social-links{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px 39%;
+}
+
+.social-links li{
+    list-style: none;
+    margin: auto;
+}
+
+.social-links li a{
+    padding: 15px;
+}
+
+
+.social-links i{
+    font-size: 2.0rem;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section:nth-child(1){
+    align-items:flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;
+    border-right: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.active{
+    border: 2px solid white;
+}

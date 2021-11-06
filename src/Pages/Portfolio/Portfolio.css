@@ -1,0 +1,27 @@
+.portfolio-container{
+    width: auto;
+    box-sizing: border-box;
+}
+
+.item-container img{
+    width: 90%;
+    border: 2px solid white;
+}
+
+
+.sub-section{
+    margin-top: 40px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px 10px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.item-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+    box-sizing: border-box;
+}
